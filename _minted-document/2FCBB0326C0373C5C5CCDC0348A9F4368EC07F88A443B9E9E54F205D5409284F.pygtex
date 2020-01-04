@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{n}{clf} \PYG{o}{=} \PYG{n}{MultinomialNB}\PYG{p}{()}
+		\PYG{n}{clf} \PYG{o}{=} \PYG{n}{clf}\PYG{p}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{dataX\PYGZus{}train}\PYG{p}{,} \PYG{n}{dataY\PYGZus{}train}\PYG{p}{)}
+		\PYG{n}{y\PYGZus{}pred}\PYG{o}{=}\PYG{n}{clf}\PYG{p}{.}\PYG{n}{predict}\PYG{p}{(}\PYG{n}{dataX\PYGZus{}predict}\PYG{p}{)}
+		\PYG{n}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}多项分布朴素贝叶斯，样本总数： \PYGZpc{}d 错误样本数 : \PYGZpc{}d\PYGZdq{}} \PYG{o}{\PYGZpc{}} \PYG{p}{(}\PYG{n}{dataX\PYGZus{}train}\PYG{p}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],(}\PYG{n}{dataY\PYGZus{}predict} \PYG{o}{!=} \PYG{n}{y\PYGZus{}pred}\PYG{p}{).}\PYG{n}{sum}\PYG{p}{()))}
+		\PYG{n}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}准确率为： \PYGZpc{}f\PYGZdq{}} \PYG{o}{\PYGZpc{}} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}} \PYG{p}{(}\PYG{n}{dataY\PYGZus{}predict} \PYG{o}{!=} \PYG{n}{y\PYGZus{}pred}\PYG{p}{).}\PYG{n}{sum}\PYG{p}{()}\PYG{o}{/}\PYG{n}{dataX\PYGZus{}predict}\PYG{p}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]))}
+\end{Verbatim}

@@ -1,0 +1,89 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{boss1997uncoupling}{article}{}
+      \name{author}{8}{}{%
+        {{hash=048fb31ce04ea03ca5936f5830121fb5}{%
+           family={Boss},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=814c3556623b001683978e9db6cbca92}{%
+           family={Samec},
+           familyi={S\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6bf7f2fff6686a8c2c325625a81140c9}{%
+           family={Paoloni-Giacobino},
+           familyi={P\bibinithyphendelim G\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e416802f469eb7fb74c3e954af9a3cca}{%
+           family={Rossier},
+           familyi={R\bibinitperiod},
+           given={Colette},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8f33e7a6bc96814ed1fc19af9fe6df1f}{%
+           family={Dulloo},
+           familyi={D\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fd17ca69beb79b5d15c0eb267abe3c81}{%
+           family={Seydoux},
+           familyi={S\bibinitperiod},
+           given={Josiane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8f2096a1d4646c3579672176bfbf8105}{%
+           family={Muzzin},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=81374c4e07826a73c9c3009a4452d861}{%
+           family={Giacobino},
+           familyi={G\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2b97f655bc8a940bfd8a8368261fa7de}
+      \strng{fullhash}{67dc428db172944de4f7965502611670}
+      \strng{bibnamehash}{2b97f655bc8a940bfd8a8368261fa7de}
+      \strng{authorbibnamehash}{2b97f655bc8a940bfd8a8368261fa7de}
+      \strng{authornamehash}{2b97f655bc8a940bfd8a8368261fa7de}
+      \strng{authorfullhash}{67dc428db172944de4f7965502611670}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FEBS letters}
+      \field{number}{1}
+      \field{title}{Uncoupling protein-3: a new member of the mitochondrial carrier family with tissue-specific expression}
+      \field{volume}{408}
+      \field{year}{1997}
+      \field{pages}{39\bibrangedash 42}
+      \range{pages}{4}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
