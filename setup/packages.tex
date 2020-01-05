@@ -1,11 +1,26 @@
 % Load packages according to your needs
 
 \usepackage{amsmath}
+\newtheorem{theorem}{定理}
+\newtheorem{lemma}{引理}
+\newtheorem{proof}{证明}[subsection]
 \usepackage{amssymb}
 \usepackage[noend]{algpseudocode}
 \usepackage{algorithm}
 \usepackage{algorithmicx}
+\floatname{algorithm}{算法}
 \usepackage{array}
+\usepackage{multirow}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\chead{\leftmark}
+\rhead{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage{subcaption}
 \usepackage{graphicx}
 % 设置插图目录
 \graphicspath{{./figs/}}
@@ -34,6 +49,8 @@
 \def\algorithmautorefname{\textbf{算法}}% 
 \def\tableautorefname{\textbf{表}}%
 \def\figureautorefname{\textbf{图}}%
+\def\lemmaautorefname{\textbf{引理}}%
+\def\theoremautorefname{\textbf{定理}}%
 \usepackage{titlesec}
 \titleformat{\section}{\centering\LARGE\heiti}{第\,\thesection\,章}{1em}{}
 \titleformat{\subsection}{\centering\large\heiti}{第\,\thesubsection\,节}{1em}{}
