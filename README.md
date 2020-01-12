@@ -13,7 +13,7 @@
 	* 正文	5号宋体(9磅)
 
 ## 说明
-* 代码插入在3.1节，如果使用minted包编译代码，需要在编译选项中加入-shell-escape命令
+* 代码插入在3.1节，如果使用minted包编译代码，需要在编译选项中加入-shell-escape命令，并在python中安装pymentize库方可正常编译，具体配置可参照[这里](https://www.latexstudio.net/archives/328.html)
 * 公式、算法、表格、图片插图在3.2节，其中图片需要放在figs/ 中
 * 参考文献在bib/ 中，通过cite{}命令引用
 
